@@ -1,6 +1,6 @@
 # spring-in-action
 
-### 개요
+### 책
 
 - [Spring in Action, Fifth Edition](http://www.springinaction.com/) by Craig Walls
 
