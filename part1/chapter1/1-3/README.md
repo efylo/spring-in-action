@@ -2,7 +2,7 @@
 
 ### Controller
 
-- 서버로 들어온 요청을 처리한다. 
+- 서버로 들어온 요청을 가져와서 처리한다. 
   - HandlerMapping 객체가 요청의 경로에 해당하는 컨트롤러를 호출한다. 
   - 요청 처리 이후 적절한 응답 혹은 응답을 야기할 수 있는 데이터 등을 반환한다. 
 
@@ -14,7 +14,8 @@
 #### @GetMapping(String path)
 
 - 메서드 앞에 위치하여, *path*에 해당하는 HTTP GET 요청을 처리하는 로직임을 알려준다. 
-- GetMapping, PostMapping, PutMapping, DeleteMapping 모두 존재한다. 
+- GetMapping, PostMapping, PutMapping, DeleteMapping - HTTP GET, POST, PUT, DELETE 메서드
+- RequestMapping - HTTP 전반
 
 ---
 
